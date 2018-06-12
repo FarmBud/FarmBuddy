@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Weather widget (Yahoo API)</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/styleindex.css">
+
+  
+</head>
+
+<body>
+
+  <table width="243" style='background-color: cornsilk; padding: 8px;' border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td>
+      <div id='editloc' style='display:none'>
+        <input id='txtlocation' type='text' class='ghost' title='Enter city or zip code:' size="18" onkeydown="if (event.keyCode == 13) document.getElementById('lnkgo').click()"> </input>	
+	      <span id='span-go'><a id='lnkgo' href='#' class="weath-content1">[Go]</a></span> 	
+        <div id='locinfo' class="weath-heading1" style='display:none;color:#AD3839;'>
+          We did not find your search location <br/>
+          Make sure the location or zipcode is accurate. <br/>
+        </div>            
+      </div>                   
+    </td>
+  </tr>       
+    <tr>
+        <td>                      
+            <img id="weath-img" src="example-icon.png" width="51" height="49" hspace="5" vspace="5" align="right">
+            <a id="weatherlocation" class="weath-location" href='#' target='_blank'>
+            </a>&nbsp;
+            <span id='editlocspan'><a id='editloclink' class="weath-content2" href='#'>[edit]</a></span> 		  
+            <div id="date-time" class="weath-content1"></div>
+            <div style="padding-bottom:10px"></div>
+              <div id="category" class="weath-heading1">Current Conditions:<div/>
+              <span id="conditions" class="weath-content2"></span><br/>                          
+            <div style="padding-bottom: 10px"></div>
+            <span class="weath-heading1">5-day Forecast:</span>
+            <div id="five-day" class="weath-content1"></div>
+        </td>
+    </tr>
+</table>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
