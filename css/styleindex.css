@@ -1,0 +1,33 @@
+<style type="text/css"> a.weath-location:hover, a.weath-location:active {
+    color:#00b0ff;
+}
+
+.weath-location {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    color: #085dad;
+}
+.weath-content1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: normal;
+    color: #3c3c3c;
+    text-decoration: none;
+}
+.weath-content2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: normal;
+    color: #00a3e6;
+    text-decoration: none;
+    padding-bottom: 3px;
+}
+.weath-heading1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    color: #3c3c3c;
+    text-decoration: none;
+}
+</style>
